@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+#container {
+    background-color: plum;
+    margin: 1% 15% 5%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+
+p {
+    width: 750px;
+    margin: 0 auto;
+    text-align: right;  
+}
+
+#imagem {
+    border-radius: 10px;
+    height: 200px;
+    width: 550px;
+    background: url('../assets/pexels-olga-lioncat-7245483.jpg') no-repeat top center/cover;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+#paragrafo {
+text-align: center;
+}
+
+p {
+    text-align: right;
+    margin: 0px auto;
+    width: 550px;
+    color: black
+}
+
+ul, ol {
+    width: 500px;
+    margin: 0 auto;
+    line-height: 36px;
+}
+
+
+
+
+
+
