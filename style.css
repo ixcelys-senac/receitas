@@ -14,36 +14,42 @@ body {
     box-shadow: 3px 3px 5px black;
 }
 
-p {
-    width: 750px;
-    margin: 0 auto;
-    text-align: right;  
-}
-
 #imagem {
     border-radius: 10px;
     height: 200px;
-    width: 550px;
+    width: 90%;
+    max-width: 550px;
     background: url('../assets/pexels-olga-lioncat-7245483.jpg') no-repeat top center/cover;
     margin: 0 auto;
 }
 
 h1, h2 {
     text-align: center;
-}
-#paragrafo {
-text-align: center;
+    text-transform: uppercase;
+    margin: 30px 0 10px 0;
+    padding: 20px 0;
 }
 
-p {
+#legenda {
+    width: 90%;
+    max-width: 600px;
     text-align: right;
-    margin: 0px auto;
-    width: 550px;
-    color: black
+}
+#rodape {
+    text-align: center;
+
+}
+
+#paragrafo {
+    width: 90%;
+    max-width: 550px;
+    margin: 0 auto;
 }
 
 ul, ol {
-    width: 500px;
+    width: 80%;
+    max-width: 710px;
+    font-size: 10pt;
     margin: 0 auto;
     line-height: 36px;
 }
